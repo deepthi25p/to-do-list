@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #c3d0ff, #c7feff);
+    background: linear-gradient(to right, #e3c9f4, #a7d8f2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body {
     box-shadow: 7px 8px 10px rgba(199, 197, 196, 0.35);
     width: 450px;
     text-align: center;
-    border: 2.5px solid rgb(68, 68, 248);
+    border: 2.5px solid #610970;
 }
 
 .input-container {
@@ -31,7 +31,7 @@ body {
 
 input:focus {
     outline-offset: none;
-    outline: 2px solid blue;
+    outline: 2px solid #610970;
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
 }
 
@@ -51,7 +51,7 @@ input::placeholder {
 #addbtn {
     padding: 8px 12px;
     border: none;
-    background-color: hsl(234, 84%, 50%);
+    background-color: hsl(291, 85%, 24%);
     color: white;
     cursor: pointer;
     border-radius: 6px 6px 6px 6px;
@@ -61,7 +61,7 @@ input::placeholder {
 
 
 #addbtn:hover {
-    background-color: hsl(234, 84%, 60%);
+    background-color: hsl(291, 85%, 28%);
 }
 
 ul {
